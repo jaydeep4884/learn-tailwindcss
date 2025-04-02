@@ -80,7 +80,7 @@ function Backgrounds() {
       <div className="border-4 border-black  size-32 bg-purple-600 m-5 rounded-full"></div> */}
 
       {/* Box Shadow  */}
-      <div className="flex gap-5 m-5">
+      {/* <div className="flex gap-5 m-5">
         <div className="shadow-2xs size-32  rounded-md">BoxShadow 2xs</div>
         <div className="shadow-xs size-32  rounded-md">BoxShadow xs</div>
         <div className="shadow-sm size-32  rounded-md">BoxShadow sm</div>
@@ -88,7 +88,26 @@ function Backgrounds() {
         <div className="shadow-lg size-32  rounded-md">BoxShadow lg</div>
         <div className="shadow-xl size-32  rounded-md">BoxShadow xl</div>
         <div className="shadow-2xl size-32  rounded-md">BoxShadow 2xl</div>
-      </div>
+      </div> */}
+
+      {/* Opacity  */}
+      {/* <p className="opacity-1">Hello World !!</p> */}
+
+      {/* FILTER  */}
+
+      {/* BLUR */}
+      {/* <div>
+        <img
+          className="h-48 w-56 object-cover blur-sm"
+          src="https://images.unsplash.com/photo-1740188305229-63c68ef04712?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <img
+          className="h-48 w-56 object-cover grayscale"
+          src="https://images.unsplash.com/photo-1740188305229-63c68ef04712?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </div> */}
     </div>
   );
 }
